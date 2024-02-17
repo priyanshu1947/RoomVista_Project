@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>RoomVista</title>
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+   
+<!-- header section starts  -->
+
+<header class="header">
+
+   <nav class="navbar nav-1">
+      <section class="flex">
+         <a href="home.html" class="logo"><i class="fas fa-house"></i>RoomVista</a>
+
+         <ul>
+            <li><a href="#">My Booking <i class="fas fa-paper-plane"></i></a></li>
+         </ul>
+      </section>
+   </nav>
+
+   <nav class="navbar nav-2">
+      <section class="flex">
+         <div id="menu-btn" class="fas fa-bars"></div>
+
+         <div class="menu">
+            <ul>
+               <li><a href="home.html"><b>Hotels</b><i class=""></i></a>
+                  
+               </li>
+               <li><a href="about.html"><b>About</b><i class=""></i></a>
+                    
+               </li>
+               <li><a href="contact.html"><b>Contacts</b></a>
+                  
+                  
+               </li>
+               <li><a href="contact.html#faq"><b>FAQ</b><i class=""></i></a>
+                  
+               </li>
+            </ul>
+         </div>
+
+         <ul>
+            <li><a href="#">Saved <i class="far fa-heart"></i></a></li>
+            <li><a href="#">Account <i class="fas fa-angle-down"></i></a>
+               <ul>
+                  <li><a href="login.html">Login</a></li>
+                  <li><a href="register.html">Register</a></li>
+               </ul>
+            </li>
+         </ul>
+      </section>
+   </nav>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<div id="home" class="home">
+   <section class="center">
+
+       <form action="search.html" method="post">
+           <h3>Find your perfect stay</h3>
+           <div class="box">
+               <p>Search location <span>*</span></p>
+               <input type="text" name="location" required maxlength="50" placeholder="Enter city name" class="input">
+           </div>
+           <div class="flex">
+               <div class="box">
+                   <p>Check-in Date <span>*</span></p>
+                   <input type="date" name="checkInDate" class="input" required>
+               </div>
+               <div class="box">
+                   <p>Check-out Date <span>*</span></p>
+                   <input type="date" name="checkOutDate" class="input" required>
+               </div>
+               <div class="box">
+                   <p>No of room <span>*</span></p>
+                   <select name="minimum" class="input" required>
+                     <option value="2">1</option>
+                     <option value="2">2</option>
+                     <option value="3">3</option>
+                     <option value="4">4</option>
+                     <option value="5">5</option>
+                     <option value="6">6</option>
+                     <option value="7">7</option>
+                     <option value="8">8</option>
+                   </select>
+               </div>
+               <div class="box">
+                   <p>No of guests <span>*</span></p>
+                   <select name="maximum" class="input" required>
+                       <option value="2">1</option>
+                       <option value="2">2</option>
+                       <option value="3">3</option>
+                       <option value="4">4</option>
+                       <option value="5">5</option>
+                       <option value="6">6</option>
+                       <option value="7">7</option>
+                       <option value="8">8</option>
+                   </select>
+               </div>
+           </div>
+           <input type="submit" value="search destination" name="search" class="btn">
+       </form>
+
+   </section>
+</div>
+
+
+
+
+
+<!-- home section ends -->
+
+<!-- services section starts  -->
+
+<section id="services" class="services">
+
+   <h1 class="heading">our services</h1>
+
+   <div class="box-container">
+
+      <div class="box">
+         <img src="images/icon-1.png" alt="">
+         <h3>Hotel Accommodations</h3>
+         <p>Immerse yourself in comfort with our diverse range of accommodation options tailored to your preferences.</p>
+      </div>
+
+      <div class="box">
+         <img src="images/icon-2.png" alt="">
+         <h3>Flight Packages</h3>
+         <p>Soar to your destination seamlessly with our efficient and reliable flight booking services.</p>
+      </div>
+
+      <div class="box">
+         <img src="images/icon-3.png" alt="">
+         <h3>Holiday Package</h3>
+         <p>Curate unforgettable memories with our thoughtfully crafted holiday packages catering to every traveler's dream.</p>
+      </div>
+
+      <div class="box">
+         <img src="images/icon-4.png" alt="">
+         <h3>Train Travel Assistance</h3>
+         <p> Embark on a scenic and convenient journey with our streamlined train services, ensuring a comfortable and memorable travel experience.</p>
+      </div>
+
+      <div class="box">
+         <img src="images/icon-5.png" alt="">
+         <h3>Travel Insurance</h3>
+         <p>Ensure a worry-free journey with our comprehensive travel insurance coverage, safeguarding you against unexpected events.</p>
+      </div>
+
+      <div class="box">
+         <img src="images/icon-6.png" alt="">
+         <h3>24/7 service</h3>
+         <p>Our dedicated team is at your service around the clock, providing support and assistance whenever you need it.</p>
+      </div>
+
+   </div>
+
+</section>
+
+<!-- services section ends -->
+
+<!-- listings section starts  -->
+
+<section id="listings" class="listings">
+
+   <h1 class="heading">Top Hotels for you</h1>
+
+   <div class="box-container">
+
+      <div class="box">
+         <div class="admin">
+            
+            <div>
+               <p><b>Abad Atrium</b></p>
+               <span>Available</span>
+            </div>
+         </div>
+         <div class="thumb">
+            <p class="total-images"><i class="far fa-image"></i><span>4</span></p>
+            
+            <form action="" method="post" class="save">
+               <button type="submit" name="save" class="far fa-heart"></button>
+            </form>
+            <img src="images/house-img-1.webp" alt="">
+         </div>
+         <h3 class="name">Smart Apartments</h3>
+         <p class="location"><i class="fas fa-map-marker-alt"></i><span>Magarpatta City, Mumbai, India - 411013</span></p>
+         <div class="flex">
+            <p><i class="fas fa-bed"></i><span>3</span></p>
+            <p><i class="fas fa-bath"></i><span>2</span></p>
+            <p><i class="fas fa-maximize"></i><span>750sqft</span></p>
+         </div>
+         <a href="view_property.html" class="btn">View Hotels</a>
+      </div>
+
+      <div class="box">
+         <div class="admin">
+            
+            <div>
+               <p><b>Hotel Abad Plaza</b></p>
+               <span>Available</span>
+            </div>
+         </div>
+         <div class="thumb">
+            <p class="total-images"><i class="far fa-image"></i><span>4</span></p>
+            
+            <form action="" method="post" class="save">
+               <button type="submit" name="save" class="far fa-heart"></button>
+            </form>
+            <img src="images/house-img-2.webp" alt="">
+         </div>
+         <h3 class="name">Modern Apartments</h3>
+         <p class="location"><i class="fas fa-map-marker-alt"></i><span>Old Custom House, Mumbai, India - 400104</span></p>
+         <div class="flex">
+            <p><i class="fas fa-bed"></i><span>3</span></p>
+            <p><i class="fas fa-bath"></i><span>2</span></p>
+            <p><i class="fas fa-maximize"></i><span>750sqft</span></p>
+         </div>
+         <a href="view_property.html" class="btn">View Hotels</a>
+      </div>
+
+      <div class="box">
+         <div class="admin">
+            
+            <div>
+               <p><b>The Dutch Bunglow</b></p>
+               <span>10-11-2022</span>
+            </div>
+         </div>
+         <div class="thumb">
+            <p class="total-images"><i class="far fa-image"></i><span>4</span></p>
+            
+            <form action="" method="post" class="save">
+               <button type="submit" name="save" class="far fa-heart"></button>
+            </form>
+            <img src="images/house-img-3.jpg" alt="">
+         </div>
+         <h3 class="name">Luxary Apartments</h3>
+         <p class="location"><i class="fas fa-map-marker-alt"></i><span>Kalbadevi West, Mumbai, India - 400004</span></p>
+         <div class="flex">
+            <p><i class="fas fa-bed"></i><span>3</span></p>
+            <p><i class="fas fa-bath"></i><span>2</span></p>
+            <p><i class="fas fa-maximize"></i><span>750sqft</span></p>
+         </div>
+         <a href="view_property.html" class="btn">View Hotels</a>
+      </div>
+
+   </div>
+
+   <div style="margin-top: 2rem; text-align:center;">
+      <a href="listings.html" class="inline-btn">view all</a>
+   </div>
+
+</section>
+
+<!-- listings section ends -->
+
+
+
+
+
+
+
+
+
+
+<!-- footer section starts  -->
+
+<footer class="footer">
+
+   <section class="flex">
+
+      <div class="box">
+         <a href="tel:8969512207"><i class="fas fa-phone"></i><span>8969512207</span></a>
+         <a href="tel:7870621591"><i class="fas fa-phone"></i><span>7870621591</span></a>
+         <a href="mailto:priyanshukumar4856@gmail.com"><i class="fas fa-envelope"></i><span>priyanshukumar4856@gmail.com</span></a>
+         <a href="#"><i class="fas fa-map-marker-alt"></i><span>Mumbai, India - 400104</span></a>
+      </div>
+
+      <div class="box">
+         <a href="home.html"><span>Home</span></a>
+         <a href="about.html"><span>About</span></a>
+         <a href="contact.html"><span>Contacts</span></a>
+         <!-- Updated link for FAQ -->
+         <a href="contact.html#faq"><span>FAQ</span></a>
+      </div>
+
+      <div class="box">
+         <a href="#"><span>Facebook</span><i class="fab fa-facebook-f"></i></a>
+         <a href="#"><span>Twitter</span><i class="fab fa-twitter"></i></a>
+         <a href="#"><span>Linkedin</span><i class="fab fa-linkedin"></i></a>
+         <a href="#"><span>Instagram</span><i class="fab fa-instagram"></i></a>
+      </div>
+
+   </section>
+
+   <div class="credit">&copy; Created by <span>Mr Priyanshu Kumar, Student at VIT</span> | All Rights Reserved!</div>
+
+</footer>
+
+
+<!-- footer section ends -->
+
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
