@@ -17,8 +17,7 @@ Room Vista is a hotel booking website that allows users to find and book accommo
 4. [Usage](#usage)
 5. [Technologies Used](#technologies-used)
 6. [Contributing](#contributing)
-7. [License](#license)
-8. [Contact](#contact)
+7. [Contact](#contact)
 
 ## Introduction
 
@@ -86,26 +85,33 @@ Room Vista aims to simplify the hotel booking process by offering an intuitive i
 
 Contributions are welcome! If you'd like to enhance Room Vista, feel free to submit pull requests.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
 ## Contact
 
 For any inquiries, reach out to our team at [contact@roomvista.com](mailto:contact@roomvista.com).
 
 ## Screenshots
 ![image](https://github.com/priyanshu1947/RoomVista_Project/assets/70458921/7a2b3291-6781-4bc2-b4af-481f4aab13d8)
+
 ![image](https://github.com/priyanshu1947/RoomVista_Project/assets/70458921/81657aa9-625b-43fe-9431-7f3e9e81e0be)
+
 ![image](https://github.com/priyanshu1947/RoomVista_Project/assets/70458921/b1a51b1c-954e-4e03-996b-41ee9fb7a340)
+
 ![image](https://github.com/priyanshu1947/RoomVista_Project/assets/70458921/3e37279d-e7dc-4a14-b403-09cf2b933593)
+
 ![image](https://github.com/priyanshu1947/RoomVista_Project/assets/70458921/9fb9528b-a02e-45f9-a98b-9d58bcd37d63)
+
 ![image](https://github.com/priyanshu1947/RoomVista_Project/assets/70458921/b89011d1-6f13-438c-a43a-98effb41af65)
+
 ![image](https://github.com/priyanshu1947/RoomVista_Project/assets/70458921/6424eb41-6bb4-4348-adbd-cd9f2bd440f7)
+
 ![image](https://github.com/priyanshu1947/RoomVista_Project/assets/70458921/46832a4e-e2d6-471a-b94d-63abea455b61)
+
 ![image](https://github.com/priyanshu1947/RoomVista_Project/assets/70458921/ff31b34b-747f-4157-a9b6-50b0e6b7b274)
+
 ![image](https://github.com/priyanshu1947/RoomVista_Project/assets/70458921/1b3db888-fd69-41a9-9608-b91c6de6f847)
+
 ![image](https://github.com/priyanshu1947/RoomVista_Project/assets/70458921/34ccac64-98c0-42a0-9612-486a87f5e888)
+
 ![image](https://github.com/priyanshu1947/RoomVista_Project/assets/70458921/e3dce557-3811-425b-a7e4-dbaef0f577a9)
 
 
